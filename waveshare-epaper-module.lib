@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# epaper-module
+#
+DEF epaper-module U 0 40 Y Y 1 F N
+F0 "U" -275 550 50 H V C CNN
+F1 "epaper-module" 0 -450 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 500 400 -400 0 1 0 N
+X BUSY 1 500 400 100 L 50 50 1 1 I
+X RST 2 500 300 100 L 50 50 1 1 I
+X DC 3 500 200 100 L 50 50 1 1 I
+X CS 4 500 100 100 L 50 50 1 1 I
+X CLK 5 500 0 100 L 50 50 1 1 I
+X DIN 6 500 -100 100 L 50 50 1 1 I
+X GND 7 500 -200 100 L 50 50 1 1 I
+X VCC 8 500 -300 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
